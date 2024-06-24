@@ -1,45 +1,122 @@
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalles Creativos para Papá</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>PAGINA WEB</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .profile-container {
+            display: flex;
+            flex-grow: 1;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /*toda la hoja*/
+            border-radius: 10px;
+            overflow: hidden;
+            width: 1000%;
+            max-width: 1500px;
+            margin: 1px auto;
+        }
+        .profile-photo img {
+            width: 80%;/*foto*/
+            height: 80%;
+            object-fit: cover;
+            margin-left: 55px; 
+        }
+        .photo-section {
+            flex: 1;
+            max-width: 5000%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .text-section {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .header-container {
+            border: 30px solid #ffcc00; /* margen del cuadro*/
+            padding: 20px;
+            display: inline-block;
+            margin-bottom: 50px; /*lugar del cuadro*/
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .header {
+            font-size: 5em;
+            color: lead;
+            margin: 0;
+            font-family: 'Lobster', cursive; /*tipo letra*/
+        }
+        .greeting {
+            font-size: 1.2em;
+            margin: 20px 0; /*altura del cuadro*/
+            color: #555;
+            text-align: right;
+        }
+        .description {
+            line-height: 1.6;
+            text-align: justify;
+            color: #666;
+        }
+        .description p {
+            margin: 10px 0;
+        }
+        .description ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .description ul li {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: white;
+            padding: 20px 0;
+            background-color: #333;
+            width: 100%;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: auto;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <Center> <h1>Detalles Creativos para Papá</h1>
-    </header> </Center>
-    <main>
-        <section class="hero"> <center>
-            <h2>Ideas Únicas para Sorprender a Papá</h2>
-            <p>Encuentra el regalo perfecto para el mejor papá del mundo.</p>
-        </section> </center>
-        <section class="details"> <center>
-            <div class="detail-card"> 
-                <img src="Padre.png" alt="Regalo 1">
-                <h3>Opción 1</h3>
-                <p>Kit lleno de cosas especiales para Papá</p>
-            </div> </center>
-            <div class="detail-card"> <center>
-                <img src="Papá.jpeg" alt="Regalo 2">
-                <h3>Opción 2</h3>
-                <p> ALBUM PARA PAPÁ.</p>
-                <div class="detail-card">
-                <img src="ALBUM..jpg" alt="Regalo 2">
-            </div> </center>
-            <div class="detail-card"> <center>
-                <h3>Opción 3</h3>
-                <p> POLO PERSONALIZADO PAPÁ</p>
-                <div class="detail-card">
-                <img src="POLO.jpeg" alt="Regalo 2">
-            </div> </center>
-        </section>
-    </main>
+    <div class="profile-container">
+        <div class="photo-section">
+            <div class="profile-photo">
+                <img src="IMAGEN.webp" alt="Foto de perfil">
+            </div>
+        </div>
+        <div class="text-section">
+            <div class="header-container">
+                <div class="greeting">PRESENTACIÓN</div>
+                <div class="header"><strong>Huamán Luna Sandy Lizeth</strong></div>
+            </div>
+            <div class="description">
+                <p>¡HOLA! Mi nombre es SANDY soy de la ciudad de Bambamarca. Soy una persona muy amigable, me encanta el orden, la creatividad, el respeto y sobre todo me gusta aprender y conocer sobre cosas nuevas. Mi visión es seguir mejorando tanto como persona así como también en el ámbito laboral y educativo.</p>
 
-
+                <p><strong>En el curso de Informática IV, he aprendido las diferentes etiquetas de HTML, códigos que utilizamos para desarrollar la estructura y el contenido de una página web, a colocarle color, imágenes, a crear tablas, etc. Lo que espero aprender en lo que resta de la carrera es seguir conociendo e informándome más sobre temas de mi carrera, como páginas web más avanzadas, bases de datos creadas e implementadas, conexiones, etc.</strong></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; HUAMÁN LUNA SANDY LIZETH</p>
+    </footer>
 </body>
-<footer aling="center" style="background-color: #eeeeee" ><font color="#0f2880"><b> <i> Sandy Huaman Luna </i></b> <br><font size="1"> Informatica IV </font></font></font>
 </html>
